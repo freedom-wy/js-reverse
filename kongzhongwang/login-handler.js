@@ -81,19 +81,25 @@ var KZLoginHandler = {
         this.completed = true
     },
     'login': function(user, pwd, to_save, vcode, call_back) {
+        // 获取时间戳
         var tempTime = Date.parse(new Date()) - this.timestamp;
         if ((tempTime / 1000) >= 180) {
             this.j_data = null
         };
         if (this.j_data == null || this.j_data == "") {
+            // 调用check函数
             this.check(function(data) {
                 this.f_call_back = call_back;
                 var param = "";
+                // 拼接URL
                 param += "&type=1";
                 if (this.service != null && jQuery.trim(this.service) != "") {
                     param += "&service=" + decodeURIComponent(this.service)
                 };
+                // 拼接URL
                 param += "&username=" + user;
+                // 调用encrypt函数,传入密码和dc字段,返回加密后的密码
+                // dc为https://sso.kongzhong.com/ajaxLogin?j=j&jsonp=j&service=https://passport.kongzhong.com/&_=时间戳返回的dc值
                 param += "&password=" + this.encrypt(pwd, data["dc"]);
                 param += "&vcode=" + vcode;
                 if (to_save) {
@@ -224,11 +230,13 @@ var KZLoginHandler = {
         }
     },
     'encrypt': function(str, pwd) {
+        // 判空
         if (pwd == null || pwd.length <= 0) {
             return null
         };
         var prand = "";
         for (var i = 0; i < pwd.length; i++) {
+            // 返回密码的Unicode编码
             prand += pwd.charCodeAt(i).toString()
         };
         var sPos = Math.floor(prand.length / 5);
