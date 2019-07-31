@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kongzhongwang/login_kongzhongwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/kongzhongwang/login_kongzhongwang.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -11,7 +12,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/js_reverse$login_kongzhongwang.coverage" NAME="login_kongzhongwang Coverage Results" MODIFIED="1564562011805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kongzhongwang" />
+    <SUITE FILE_PATH="coverage/js_reverse$login_kongzhongwang.coverage" NAME="login_kongzhongwang Coverage Results" MODIFIED="1564571308973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kongzhongwang" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-146252718">
@@ -39,14 +40,14 @@
         <counts>
           <entry key="js" value="165" />
           <entry key="md" value="520" />
-          <entry key="py" value="1554" />
+          <entry key="py" value="1674" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JavaScript" value="165" />
           <entry key="Markdown" value="520" />
-          <entry key="Python" value="1554" />
+          <entry key="Python" value="1674" />
         </counts>
       </usages-collector>
     </session>
@@ -65,7 +66,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -77,14 +78,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kongzhongwang/login_kongzhongwang.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
+            <state relative-caret-position="273">
+              <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1564562008001" expanded="true" signature="1338:1344" ph="..." />
+                <marker date="1564571324488" expanded="true" signature="1338:1344" ph="..." />
               </folding>
             </state>
           </provider>
@@ -93,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/kongzhongwang/login-handler.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-832">
-              <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+            <state relative-caret-position="256">
+              <caret line="231" column="8" lean-forward="true" selection-start-line="231" selection-start-column="8" selection-end-line="231" selection-end-column="8" />
               <folding>
                 <element signature="n#!!block;n#init#0;n#init#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
                 <element signature="n#!!block;n#exec_login#0;n#exec_login#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
@@ -110,7 +111,7 @@
         <entry file="file://$PROJECT_DIR$/kongzhongwang/encrypt-js.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+              <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -135,9 +136,9 @@
         <option value="$PROJECT_DIR$/kongzhongwang/login-handler.js.py" />
         <option value="$PROJECT_DIR$/kongzhongwang/login-handler.js" />
         <option value="$PROJECT_DIR$/kongzhongwang/encrypt-js.js" />
-        <option value="$PROJECT_DIR$/kongzhongwang/login_kongzhongwang.py" />
         <option value="$PROJECT_DIR$/kongzhongwang/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/kongzhongwang/login_kongzhongwang.py" />
       </list>
     </option>
   </component>
@@ -167,6 +168,11 @@
             <path>
               <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
+              <item name="kongzhongwang" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -245,7 +251,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15820734" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15820734" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -255,7 +261,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.325315" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.4616266" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -281,38 +287,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/kongzhongwang/encrypt-js.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kongzhongwang/login-handler.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-832">
-          <caret line="85" column="35" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
-          <folding>
-            <element signature="n#!!block;n#init#0;n#init#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
-            <element signature="n#!!block;n#exec_login#0;n#exec_login#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
-            <element signature="n#!!block;n#jsonpCallbackKongZ#0;n#jsonpCallbackKongZ#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
-            <element signature="n#!!block;n#login_sms#0;n#login_sms#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
-            <element signature="n#!!block;n#login_reg#0;n#login_reg#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/kongzhongwang/login_kongzhongwang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="55" column="25" lean-forward="true" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <marker date="1564562008001" expanded="true" signature="1338:1344" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/kongzhongwang/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -330,6 +304,38 @@
             <caret line="3" column="28" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kongzhongwang/encrypt-js.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kongzhongwang/login-handler.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="231" column="8" lean-forward="true" selection-start-line="231" selection-start-column="8" selection-end-line="231" selection-end-column="8" />
+          <folding>
+            <element signature="n#!!block;n#init#0;n#init#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
+            <element signature="n#!!block;n#exec_login#0;n#exec_login#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
+            <element signature="n#!!block;n#jsonpCallbackKongZ#0;n#jsonpCallbackKongZ#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
+            <element signature="n#!!block;n#login_sms#0;n#login_sms#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
+            <element signature="n#!!block;n#login_reg#0;n#login_reg#0;n#!!block;n#KZLoginHandler#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/kongzhongwang/login_kongzhongwang.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" column="29" lean-forward="true" selection-start-line="31" selection-start-column="29" selection-end-line="31" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1564571324488" expanded="true" signature="1338:1344" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>

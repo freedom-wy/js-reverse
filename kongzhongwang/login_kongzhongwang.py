@@ -44,7 +44,6 @@ class HandleKongzhongwang(object):
         #处理密码加密js文件
         with open('encrypt-js.js','r',encoding='utf-8') as f:
             f_js = execjs.compile(f.read())
-        print(self.dc_value)
         encrypt_password = f_js.call('encrypt',password,self.dc_value)
         return encrypt_password
 
@@ -56,7 +55,7 @@ class HandleKongzhongwang(object):
         :return: 判断登录是否成功
         """
         encrypt_password = self.handle_password(password)
-        login_api = "https://sso.kongzhong.com/ajaxLogin?j=j&&type=1&service=https://passport.kongzhong.com/&username=%s&password=%s&vcode=&toSave=0&_=%s"%(username,encrypt_password,str(int(time.time())))
+        login_api = "https://sso.kongzhong.com/ajaxLogin?j=j&&type=1&service=https://passport.kongzhong.com/&username=%s&password=%s&vcode=&toSave=0&_=%s"%(username,encrypt_password,str(int(time.time()*1000)))
         print(login_api)
         response = self.kongzhongwang_session.get(url=login_api,headers=self.header)
         print(response.text)
