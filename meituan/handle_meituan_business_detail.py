@@ -10,16 +10,16 @@ class Meituanbusiness(object):
     处理美团商家详情页
     https://www.meituan.com/meishi/6484620/
     """
-    def __init__(self,business_id):
-        self.business_id = business_id
-        self.business_detail_url = "https://www.meituan.com/meishi/%s/"%business_id
+    def __init__(self):
         #MAC下的UA可用。。。
         self.header = {
             # "User-Agent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.131 Safari/537.36"
             'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
         }
 
-    def handle_detail(self):
+    def handle_detail(self,business_id):
+        business_id = business_id
+        self.business_detail_url = "https://www.meituan.com/meishi/%s/"%business_id
         response = requests.get(url=self.business_detail_url,headers=self.header)
         #提取数据区域
         data = re.search(r'12315消费争议(.*?)"dealList":', response.text, flags=re.DOTALL)
@@ -70,5 +70,5 @@ class Meituanbusiness(object):
 
 
 if __name__ == '__main__':
-    meituan_business_detail = Meituanbusiness("6484620")
-    meituan_business_detail.handle_detail()
+    meituan_business_detail = Meituanbusiness()
+    meituan_business_detail.handle_detail("6484620")

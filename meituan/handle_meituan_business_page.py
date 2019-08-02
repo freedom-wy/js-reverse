@@ -1,7 +1,7 @@
 import requests
-from handle_meituan_token import handle_webdriver_meituan_token
+import json
 import re
-import time
+from handle_meituan_business_detail import Meituanbusiness
 
 
 class MeituanBusinessPage(object):
@@ -29,12 +29,20 @@ class MeituanBusinessPage(object):
         处理页码页
         :return:
         """
-        self.handle_uuid()
+        # self.handle_uuid()
+        meituan_business_detail = Meituanbusiness()
+        data_search = re.compile(r'"poiInfos":(.*?)},"comHeader"')
         for page in range(1,11):
-            time.sleep(1)
-            token = handle_webdriver_meituan_token(page_num=page,uuid=self.uuid)
-            page_detail_url = "https://bj.meituan.com/meishi/api/poi/getPoiList?cityName=北京&cateId=0&areaId=0&sort=&dinnerCountAttrId=&page=%s&userId=&uuid=%s&platform=1&partner=126&originUrl=https://bj.meituan.com/meishi/pn%s/&riskLevel=1&optimusCode=10&_token=%s"%(page,self.uuid,page,token)
-            print(page_detail_url)
+            # token = handle_webdriver_meituan_token(page_num=page,uuid=self.uuid)
+            # page_detail_url = "https://bj.meituan.com/meishi/api/poi/getPoiList?cityName=北京&cateId=0&areaId=0&sort=&dinnerCountAttrId=&page=%s&userId=&uuid=%s&platform=1&partner=126&originUrl=https://bj.meituan.com/meishi/pn%s/&riskLevel=1&optimusCode=10&_token=%s"%(page,self.uuid,page,token)
+            # print(page_detail_url)
+            # 构造页码页
+            page_url = "http://bj.meituan.com/meishi/sales/pn%s/"%page
+            page_response = requests.get(url=page_url,headers=self.header)
+            data = data_search.search(page_response.text).group(1)
+            for item in json.loads(data):
+                #解析详情页
+                meituan_business_detail.handle_detail(item['poiId'])
             break
 
 if __name__ == '__main__':
