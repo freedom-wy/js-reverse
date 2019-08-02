@@ -1,6 +1,7 @@
 import requests
 import re
 import json
+from handle_mongo import meituan_mongo
 
 
 
@@ -65,6 +66,7 @@ class Meituanbusiness(object):
                 info['extraInfos'] = extraInfos[0:-2]
                 # 推荐菜
                 info['recommended'] = json.loads(detail_info.group(16))
+                meituan_mongo.handle_save_data(info)
 
 
 if __name__ == '__main__':
