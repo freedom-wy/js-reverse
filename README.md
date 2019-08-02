@@ -4,6 +4,7 @@
 ### 2、kongzhongwang 空中网登录JS破解
 ### 3、guazi 瓜子二手车设置cookie的JS破解
 ### 4、manhuagui 漫画柜MD5值JS破解
+### 5、meituan 美团美食商家信息抓取
 
 
 ### bug:dazhuang_python@sina.com
