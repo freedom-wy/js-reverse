@@ -10,6 +10,6 @@
 #####  handle_meituan_token.py 美团美食商家页码页token解析---未成功
 #####  meituan_token.html 美团美食商家token获取js---未成功
 #### token破解-2
-##### handle_meituan_business_page_token.py 破解美团token程序---未完成
+##### handle_meituan_business_page_token.py 破解美团token程序---按照网上提供的方法已完成破解
 ***
 #### bug:dazhuang_python@sina.com

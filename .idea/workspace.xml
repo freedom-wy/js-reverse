@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/meituan/meishi_business/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/js-reverse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/js-reverse.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/meituan/meishi_business/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/meituan/meishi_business/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/meituan/meishi_business/handle_meituan_business_page_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/meituan/meishi_business/handle_meituan_business_page_token.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -206,7 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1564555370947</updated>
       <workItem from="1565684833378" duration="1373000" />
-      <workItem from="1565699751582" duration="4403000" />
+      <workItem from="1565699751582" duration="4703000" />
     </task>
     <servers />
   </component>
