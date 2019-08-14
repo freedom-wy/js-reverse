@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/js-reverse.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/js-reverse.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/常见js逆向技巧.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meituan/meishi_business/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/meituan/meishi_business/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/meituan/meishi_business/handle_meituan_business_page_token.py" beforeDir="false" afterPath="$PROJECT_DIR$/meituan/meishi_business/handle_meituan_business_page_token.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +25,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -49,6 +47,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\js-reverse" />
       <recent name="C:\study\study_js\js-reverse\meituan" />
       <recent name="C:\study\study_js\js-reverse\manhuagui" />
       <recent name="C:\study\study_js\js-reverse\guazi" />
@@ -206,7 +205,8 @@
       <option name="presentableId" value="Default" />
       <updated>1564555370947</updated>
       <workItem from="1565684833378" duration="1373000" />
-      <workItem from="1565699751582" duration="4703000" />
+      <workItem from="1565699751582" duration="5302000" />
+      <workItem from="1565780344606" duration="1703000" />
     </task>
     <servers />
   </component>
