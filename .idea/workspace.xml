@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="" />
+    <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/nubia_bbs/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nubia_bbs/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nubia_bbs/decode_cookie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nubia_bbs/handle_nubia_bbs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +29,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -35,20 +43,21 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nubia_bbs" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\js-reverse\nubia_bbs" />
       <recent name="E:\study\js-reverse" />
       <recent name="C:\study\study_js\js-reverse\meituan" />
       <recent name="C:\study\study_js\js-reverse\manhuagui" />
       <recent name="C:\study\study_js\js-reverse\guazi" />
-      <recent name="C:\study\study_js\js-reverse\kongzhongwang" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -63,7 +72,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.handle_meituan_business_page_token">
+  <component name="RunManager" selected="Python.handle_nubia_bbs">
     <configuration name="handle_meituan_business_detail" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js-reverse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -130,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="handle_nubia_bbs" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js-reverse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -138,12 +147,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meituan" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nubia_bbs" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meituan/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nubia_bbs/handle_nubia_bbs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -177,17 +186,17 @@
     <list>
       <item itemvalue="Python.handle_meituan_business_detail" />
       <item itemvalue="Python.handle_meituan_business_page" />
-      <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.handle_meituan_business_page_token" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.handle_nubia_bbs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.handle_nubia_bbs" />
         <item itemvalue="Python.handle_meituan_business_page_token" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.handle_meituan_business_page" />
         <item itemvalue="Python.handle_meituan_business_detail" />
-        <item itemvalue="Python.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -203,7 +212,9 @@
       <updated>1564555370947</updated>
       <workItem from="1565684833378" duration="1373000" />
       <workItem from="1565699751582" duration="5302000" />
-      <workItem from="1565780344606" duration="1967000" />
+      <workItem from="1565780344606" duration="2888000" />
+      <workItem from="1566028130161" duration="1853000" />
+      <workItem from="1566034854042" duration="1391000" />
     </task>
     <servers />
   </component>
@@ -224,6 +235,7 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/js_reverse$handle_nubia_bbs.coverage" NAME="handle_nubia_bbs Coverage Results" MODIFIED="1566035636444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nubia_bbs" />
     <SUITE FILE_PATH="coverage/js_reverse$test.coverage" NAME="test Coverage Results" MODIFIED="1565703597135" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan/meishi_business" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_meituan_business_page_token.coverage" NAME="handle_meituan_business_page_token Coverage Results" MODIFIED="1565704432229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan/meishi_business" />
   </component>

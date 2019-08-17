@@ -5,6 +5,7 @@
 ### 3、guazi 瓜子二手车设置cookie的JS破解
 ### 4、manhuagui 漫画柜MD5值JS破解
 ### 5、meituan 美团美食商家信息抓取
+### 6、nubia_bbs 努比亚论坛cookie值JS破解
 
 
 ### bug:dazhuang_python@sina.com
