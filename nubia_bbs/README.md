@@ -1,9 +1,13 @@
 # 努比亚论坛cookies值JS逆向研究
 ***
 #### 文件列表:
-##### after_decode_cookie.html 努比亚论坛cookie值破解程序-破解文件
-##### decode_cookie.html 努比亚论坛cookie值破解程序-替换前
-##### handle_nubia_bbs.py 努比亚论坛cookie值破解python程序
+##### nubia_bbs_from_chrome 使用selenium调用chrome浏览器逆向js
+###### nubia_bbs_js.html 源文件
+###### after_decode_cookie.html 努比亚论坛cookie值破解程序-破解文件
+###### decode_cookie.html 努比亚论坛cookie值破解程序-替换前
+###### handle_nubia_bbs.py 努比亚论坛cookie值破解python程序
+##### nubia_bbs_from_overwrite_js 通过重写原JS文件到py文件逆向JS
+###### overwrite_js.py 使用Python重写JS逻辑
 ***
 #### 逆向方法:
 ##### 通过fiddler抓包发现第一次请求 https://bbs.nubia.cn/ 时会返回一段JS代码
