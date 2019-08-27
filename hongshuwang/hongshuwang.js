@@ -773,51 +773,7 @@ var decrypted = CryptoJS['AES']['decrypt'](data, keywords, {
     'iv': keywords,
     'padding': CryptoJS['pad']['ZeroPadding']
 });
-var secWords = decrypted['toString'](CryptoJS['enc']['Utf8'])['split'](',');
-var test = function(){
-    for (var i = 0x0; i < secWords['length']; i++) {
-        var _0x5420ee = '3|5|2|4|0|1'['split']('|')
-          , _0x9ff9d9 = 0x0;
-        while (!![]) {
-            switch (_0x5420ee[_0x9ff9d9++]) {
-            case '0':
-                _0x423190 = _0x5796d9(_0x423190);
-                continue;
-            case '1':
-                words[i] = String['fromCharCode'](_0x423190);
-                continue;
-            case '2':
-                var _0x5796d9 = function(_0x490c80) {
-                    var _0x1532b6 = {
-                        'ifLSL': function _0x256992(_0x118bb, _0x36aa09) {
-                            return _0x118bb + _0x36aa09;
-                        }
-                    };
-                    return _0x1532b6['ifLSL'](_0x490c80, 0x3 * +!(typeof document === 'undefined'));
-                };
-                continue;
-            case '3':
-                var _0x423190 = secWords[i];
-                continue;
-            case '4':
-                _0x423190 = _0x3e8e1e(_0x423190);
-                continue;
-            case '5':
-                var _0x3e8e1e = function(_0xd024e1) {
-                    var _0x3e40d1 = {
-                        'mPDrG': function _0x411e6f(_0xa8939, _0x278c20) {
-                            return _0xa8939 % _0x278c20;
-                        },
-                        'DWwdv': function _0x1e0293(_0x5b15eb, _0x443876) {
-                            return _0x5b15eb - _0x443876;
-                        }
-                    };
-                    return _0x3e40d1[_0xea12('0x28')](_0xd024e1, 0x2) ? _0x3e40d1[_0xea12('0x29')](_0xd024e1, 0x2) : _0xd024e1 - 0x4;
-                };
-                continue;
-            }
-            break;
-        }
-    }
-    return words;
+var hongshuwang = function () {
+    var secWords = decrypted['toString'](CryptoJS['enc']['Utf8'])['split'](',');
+    return secWords;
 };

@@ -34,7 +34,7 @@ class Handle_jrtt(object):
             #     time.sleep(random.choice(range(1,5)))
 
     def handle_js(self,id=None,value=0):
-        with open('test.js','r',encoding='utf-8') as f:
+        with open('hongshuwang.jswang.js','r',encoding='utf-8') as f:
             f_js = f.read().replace("xxxxx",str(id)+str(value))
         ctx = execjs.compile(f_js)
         return ctx.call('get_as_cp_signature')
