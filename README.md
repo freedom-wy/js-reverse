@@ -8,6 +8,7 @@
 ### 5、[meituan](https://github.com/freedom-wy/js-reverse/tree/master/meituan) 美团美食商家信息抓取
 ### 6、[nubia_bbs](https://github.com/freedom-wy/js-reverse/tree/master/nubia_bbs) 努比亚论坛cookie值JS破解
 ### 7、[dazhongdianping](https://github.com/freedom-wy/js-reverse/tree/master/dazhongdianping) 大众点评css字体加密破解
+### 8、[hongshuwang](https://github.com/freedom-wy/js-reverse/tree/master/hongshuwang) 红薯网CryptoJS逻辑逆向破解
 
 
 ### bug:dazhuang_python@sina.com
