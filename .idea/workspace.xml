@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dazhongdianping/test/handle_css_font.py" beforeDir="false" afterPath="$PROJECT_DIR$/dazhongdianping/test/handle_css_font.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongshuwang/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/hongshuwang/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongshuwang/handle_hongshuwang.py" beforeDir="false" afterPath="$PROJECT_DIR$/hongshuwang/handle_hongshuwang.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongshuwang/jsdom.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/nodejs_jsdom.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongshuwang/test.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongshuwang/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/hongshuwang/hongshuwang.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hongshuwang/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/jrtt_news/jrtt.py" beforeDir="false" afterPath="$PROJECT_DIR$/jrtt_news/jrtt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +17,7 @@
     <SUITE FILE_PATH="coverage/js_reverse$handle_meituan_business_page.coverage" NAME="handle_meituan_business_page Coverage Results" MODIFIED="1564743434736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan" />
     <SUITE FILE_PATH="coverage/js_reverse$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1564667421555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/js_reverse$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1566910806908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note" />
-    <SUITE FILE_PATH="coverage/js_reverse$handle_guazi.coverage" NAME="handle_guazi Coverage Results" MODIFIED="1564576283464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guazi" />
+    <SUITE FILE_PATH="coverage/js_reverse$handle_guazi.coverage" NAME="handle_guazi Coverage Results" MODIFIED="1566997112157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guazi" />
     <SUITE FILE_PATH="coverage/js_reverse$test.coverage" NAME="test Coverage Results" MODIFIED="1564713205914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_meituan_token.coverage" NAME="handle_meituan_token Coverage Results" MODIFIED="1564737952197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan" />
     <SUITE FILE_PATH="coverage/js_reverse$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1566922171382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hongshuwang" />
@@ -39,33 +27,35 @@
     <session id="-146252718">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
           <entry key="js" value="3" />
-          <entry key="md" value="5" />
-          <entry key="py" value="6" />
+          <entry key="md" value="6" />
+          <entry key="py" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
           <entry key="JavaScript" value="3" />
-          <entry key="Markdown" value="5" />
-          <entry key="Python" value="6" />
+          <entry key="Markdown" value="6" />
+          <entry key="Python" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="53" />
           <entry key="js" value="3314" />
-          <entry key="md" value="850" />
+          <entry key="md" value="981" />
           <entry key="py" value="1764" />
         </counts>
       </usages-collector>
@@ -73,48 +63,14 @@
         <counts>
           <entry key="HTML" value="53" />
           <entry key="JavaScript" value="3315" />
-          <entry key="Markdown" value="849" />
+          <entry key="Markdown" value="980" />
           <entry key="Python" value="1764" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hongshuwang/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="352">
-                <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/hongshuwang/handle_hongshuwang.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hongshuwang/hongshuwang.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="776" column="10" selection-start-line="776" selection-start-column="10" selection-end-line="776" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -141,6 +97,7 @@
         <option value="$PROJECT_DIR$/hongshuwang/hongshuwang.js" />
         <option value="$PROJECT_DIR$/hongshuwang/handle_hongshuwang.py" />
         <option value="$PROJECT_DIR$/hongshuwang/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -150,7 +107,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="132" />
     <option name="y" value="79" />
     <option name="width" value="1783" />
@@ -173,11 +130,6 @@
               <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
-              <item name="hongshuwang" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -188,7 +140,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -217,7 +169,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.handle_hongshuwang">
+  <component name="RunManager" selected="Python.handle_guazi">
+    <configuration name="handle_guazi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="js-reverse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/guazi" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/guazi/handle_guazi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="handle_hongshuwang" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js-reverse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,28 +206,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hongshuwang/handle_hongshuwang.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="handle_meituan_business_page_token" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="js-reverse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/meituan/meishi_business" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/meituan/meishi_business/handle_meituan_business_page_token.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -329,19 +281,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.handle_meituan_business_page_token" />
       <item itemvalue="Python.handle_nubia_bbs" />
       <item itemvalue="Python.handle_hongshuwang" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.test (2)" />
+      <item itemvalue="Python.handle_guazi" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.handle_guazi" />
         <item itemvalue="Python.handle_hongshuwang" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.test (1)" />
         <item itemvalue="Python.handle_nubia_bbs" />
-        <item itemvalue="Python.handle_meituan_business_page_token" />
       </list>
     </recent_temporary>
   </component>
@@ -366,7 +318,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18142548" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15442765" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -437,47 +389,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="4" column="21" lean-forward="true" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/nodejs_jsdom.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hongshuwang/jsdom.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="224">
-            <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/hongshuwang/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/test.html" />
+    <entry file="file://$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/test.py" />
+    <entry file="file://$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/nodejs_jsdom.js" />
+    <entry file="file://$PROJECT_DIR$/hongshuwang/jsdom.md" />
+    <entry file="file://$PROJECT_DIR$/hongshuwang/test.py" />
     <entry file="file://$PROJECT_DIR$/hongshuwang/hongshuwang.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="26112">
@@ -485,30 +401,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hongshuwang/README.md">
+    <entry file="file://$PROJECT_DIR$/hongshuwang/hongshuwang.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hongshuwang/handle_hongshuwang.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="352">
-            <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <first_editor relative-caret-position="192">
+            <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hongshuwang/handle_hongshuwang.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/hongshuwang/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="320">
+            <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hongshuwang/hongshuwang.js">
+    <entry file="file://$PROJECT_DIR$/guazi/handle_guazi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="518">
-          <caret line="776" column="10" selection-start-line="776" selection-start-column="10" selection-end-line="776" selection-end-column="10" />
+        <state relative-caret-position="51">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

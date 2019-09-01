@@ -9,6 +9,8 @@
 ### 6、[nubia_bbs](https://github.com/freedom-wy/js-reverse/tree/master/nubia_bbs) 努比亚论坛cookie值JS破解
 ### 7、[dazhongdianping](https://github.com/freedom-wy/js-reverse/tree/master/dazhongdianping) 大众点评css字体加密破解
 ### 8、[hongshuwang](https://github.com/freedom-wy/js-reverse/tree/master/hongshuwang) 红薯网CryptoJS逻辑逆向破解
+***
+我在慕课网上主讲课程(Python爬虫工程师必学——App数据抓取实战)[https://coding.imooc.com/class/283.html],还请各位大神多多支持.
 
 
 ### bug:dazhuang_python@sina.com
