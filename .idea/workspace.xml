@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JS基础.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinrongcaifu/AA.base-min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinrongcaifu/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinrongcaifu/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/xinrongcaifu/decode.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,6 +16,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/js_reverse$handle_manhuagui_md5.coverage" NAME="handle_manhuagui_md5 Coverage Results" MODIFIED="1564632015565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/manhuagui" />
+    <SUITE FILE_PATH="coverage/js_reverse$decode.coverage" NAME="decode Coverage Results" MODIFIED="1567429900237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinrongcaifu" />
     <SUITE FILE_PATH="coverage/js_reverse$login_kongzhongwang.coverage" NAME="login_kongzhongwang Coverage Results" MODIFIED="1564571786357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kongzhongwang" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_hongshuwang.coverage" NAME="handle_hongshuwang Coverage Results" MODIFIED="1566925331679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hongshuwang" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_meituan_business_page.coverage" NAME="handle_meituan_business_page Coverage Results" MODIFIED="1564743434736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan" />
@@ -32,40 +36,43 @@
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="js" value="3" />
-          <entry key="md" value="9" />
-          <entry key="py" value="7" />
+          <entry key="js" value="8" />
+          <entry key="md" value="10" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="JavaScript" value="3" />
-          <entry key="Markdown" value="9" />
-          <entry key="Python" value="7" />
+          <entry key="JavaScript" value="8" />
+          <entry key="Markdown" value="10" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="dummy" value="2" />
           <entry key="html" value="53" />
-          <entry key="js" value="3314" />
-          <entry key="md" value="1581" />
-          <entry key="py" value="1764" />
+          <entry key="js" value="3918" />
+          <entry key="md" value="1843" />
+          <entry key="py" value="1970" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="53" />
-          <entry key="JavaScript" value="3315" />
-          <entry key="Markdown" value="1580" />
-          <entry key="Python" value="1764" />
+          <entry key="JavaScript" value="3919" />
+          <entry key="Markdown" value="1842" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Python" value="1970" />
         </counts>
       </usages-collector>
     </session>
@@ -73,11 +80,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/JS基础.md">
+        <entry file="file://$PROJECT_DIR$/xinrongcaifu/AA.base-min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="776" column="4" selection-start-line="776" selection-start-column="4" selection-end-line="776" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xinrongcaifu/decode.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="32">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/xinrongcaifu/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1024">
-                <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+              <first_editor relative-caret-position="384">
+                <caret line="15" selection-start-line="15" selection-end-line="15" />
               </first_editor>
               <second_editor />
             </state>
@@ -89,9 +114,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="JavaScript File" />
         <option value="Python Script" />
-        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -113,6 +138,11 @@
         <option value="$PROJECT_DIR$/hongshuwang/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/JS基础.md" />
+        <option value="$PROJECT_DIR$/xinrongcaifu/rsa.js" />
+        <option value="$PROJECT_DIR$/xinrongcaifu/decode.js" />
+        <option value="$PROJECT_DIR$/xinrongcaifu/decode.py" />
+        <option value="$PROJECT_DIR$/xinrongcaifu/AA.base-min.js" />
+        <option value="$PROJECT_DIR$/xinrongcaifu/README.md" />
       </list>
     </option>
   </component>
@@ -123,8 +153,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="457" />
-    <option name="y" value="444" />
+    <option name="x" value="221" />
+    <option name="y" value="202" />
     <option name="width" value="1296" />
     <option name="height" value="736" />
   </component>
@@ -145,6 +175,11 @@
               <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
+              <item name="xinrongcaifu" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -155,21 +190,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/xinrongcaifu" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study\study_js\js-reverse\hongshuwang\nodejs_jsdom_note" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\study_js\js-reverse\xinrongcaifu" />
       <recent name="C:\study\study_js\js-reverse" />
       <recent name="C:\study\study_js\js-reverse\hongshuwang" />
       <recent name="E:\study\js-reverse\nubia_bbs" />
       <recent name="E:\study\js-reverse" />
-      <recent name="C:\study\study_js\js-reverse\meituan" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\study\study_js\js-reverse\hongshuwang\nodejs_jsdom_note" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -184,7 +219,29 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.handle_guazi">
+  <component name="RunManager" selected="Python.decode">
+    <configuration name="decode" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="js-reverse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinrongcaifu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinrongcaifu/decode.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="handle_guazi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js-reverse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -221,28 +278,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/hongshuwang/handle_hongshuwang.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="handle_nubia_bbs" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="js-reverse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/nubia_bbs" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/nubia_bbs/handle_nubia_bbs.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -296,19 +331,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.handle_nubia_bbs" />
       <item itemvalue="Python.handle_hongshuwang" />
       <item itemvalue="Python.test (1)" />
       <item itemvalue="Python.test (2)" />
       <item itemvalue="Python.handle_guazi" />
+      <item itemvalue="Python.decode" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.decode" />
         <item itemvalue="Python.handle_guazi" />
         <item itemvalue="Python.handle_hongshuwang" />
         <item itemvalue="Python.test (2)" />
         <item itemvalue="Python.test (1)" />
-        <item itemvalue="Python.handle_nubia_bbs" />
       </list>
     </recent_temporary>
   </component>
@@ -334,12 +369,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06857451" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22084233" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.85337913" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23138602" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,10 +492,51 @@
     <entry file="file://$PROJECT_DIR$/JS基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1024">
-            <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
+          <first_editor relative-caret-position="737">
+            <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinrongcaifu/decode.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinrongcaifu/rsa.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="759" column="9" lean-forward="true" selection-start-line="759" selection-start-column="9" selection-end-line="759" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinrongcaifu/decode.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinrongcaifu/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="384">
+            <caret line="15" selection-start-line="15" selection-end-line="15" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinrongcaifu/AA.base-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="776" column="4" selection-start-line="776" selection-start-column="4" selection-end-line="776" selection-end-column="4" />
         </state>
       </provider>
     </entry>

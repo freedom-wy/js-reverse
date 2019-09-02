@@ -16,5 +16,6 @@
 ##### (3)、通过[百度字体编辑器解析woff文件](http://fontstore.baidu.com/static/editor/index.html) 可以生成font_list.py文件
 ##### (4)、使用fontTools处理字体文件，得出对应关系
 ##### (5)、通过对应关系解析加密字体
+#### 5、通过RSA加密关键字段，如密码,可以通过关键字找到相应的方法，扣取需要的代码
 
 ### bug:dazhuang_python@sina.com
