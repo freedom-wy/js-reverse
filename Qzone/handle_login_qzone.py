@@ -45,21 +45,59 @@ class LoginQzone(object):
         #密码
         password_encry_value = self.decode_qzone_js.call("test",self.password,v3,verifycode)
         login_url = "https://ssl.ptlogin2.qq.com/login?u="+str(self.username)+"&verifycode="+verifycode+"&pt_vcode_v1=0&pt_verifysession_v1="+ptvfsession+"&p="+password_encry_value+"&pt_randsalt=2&u1=https://qzs.qzone.qq.com/qzone/v5/loginsucc.html?para=izone&ptredirect=0&h=1&t=1&g=1&from_ui=1&ptlang=2052&action=2-27-1567503686472&js_ver=19081313&js_type=1&login_sig="+login_sig+"&pt_uistyle=40&aid=549000912&daid=5&ptdrvs="+ptdrvs
-        print(login_url)
+        # print(login_url)
         #登录
         # print(self.qzone_session.cookies.get_dict())
         response = self.qzone_session.get(url=login_url,headers=self.header)
         #若登录成功，则返回登录成功信息
         if '登录成功' in response.text:
             print("登录成功")
+            self.sign = eval(result_search.search(response.text).group(1))
+            return True
         else:
             print("登录失败")
+            return False
 
     def handle_message(self):
-        pass
+        """
+        发表说说,未完成
+        :return:
+        """
+        if self.handle_login():
+            v1,v2,v3,v4,v5,v6 = self.sign
+            self.qzone_session.get(url=v3,headers=self.header)
+            index_url = "https://user.qzone.qq.com/"+str(self.username)
+            token_search = re.compile(r'try{return\s"(.*?)";')
+            index_response = self.qzone_session.get(url=index_url,headers=self.header)
+            token = token_search.search(index_response.text).group(1)
+            post_message_url = "https://user.qzone.qq.com/proxy/domain/taotao.qzone.qq.com/cgi-bin/emotion_cgi_publish_v6?qzonetoken="+token
+            data = {
+                "syn_tweet_verson": 1,
+                "paramstr": 1,
+                "pic_template": "",
+                "richtype": "",
+                "richval": "",
+                "special_url": "",
+                "subrichtype": "",
+                "who": 1,
+                "con": "测试两下",
+                "feedversion": 1,
+                "ver": 1,
+                "ugc_right": 1,
+                "to_sign": 0,
+                "hostuin": self.username,
+                "code_version": 1,
+                "format": "fs",
+                "qzreferrer": index_url,
+            }
+
+            print(post_message_url,data,self.qzone_session.cookies.get_dict())
+            response = self.qzone_session.post(url=post_message_url,headers=self.header,data=data)
+            print(response.text)
 
 if __name__ == '__main__':
     username = input("请输入QQ号码:")
     password = input("请输入QQ密码:")
     qzone = LoginQzone(username=username,password=password)
-    qzone.handle_login()
+    # qzone.handle_login()
+    qzone.handle_message()
