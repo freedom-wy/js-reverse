@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xinrongcaifu/rsa_study/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xinrongcaifu/rsa_study/handle_rsa.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/常见js逆向技巧.md" beforeDir="false" afterPath="$PROJECT_DIR$/常见js逆向技巧.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JS基础.md" beforeDir="false" afterPath="$PROJECT_DIR$/JS基础.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,16 +44,16 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="js" value="8" />
-          <entry key="md" value="14" />
+          <entry key="js" value="9" />
+          <entry key="md" value="16" />
           <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="JavaScript" value="8" />
-          <entry key="Markdown" value="14" />
+          <entry key="JavaScript" value="9" />
+          <entry key="Markdown" value="16" />
           <entry key="Python" value="13" />
         </counts>
       </usages-collector>
@@ -64,28 +62,43 @@
           <entry key="dummy" value="2" />
           <entry key="html" value="53" />
           <entry key="js" value="3918" />
-          <entry key="md" value="2016" />
-          <entry key="py" value="3266" />
+          <entry key="md" value="2452" />
+          <entry key="py" value="3346" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="53" />
           <entry key="JavaScript" value="3919" />
-          <entry key="Markdown" value="2015" />
+          <entry key="Markdown" value="2451" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="3266" />
+          <entry key="Python" value="3346" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/JS基础.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="735">
+                <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/xinrongcaifu/rsa_study/handle_rsa.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="352">
+                <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -117,8 +130,6 @@
         <option value="$PROJECT_DIR$/hongshuwang/hongshuwang.js" />
         <option value="$PROJECT_DIR$/hongshuwang/handle_hongshuwang.py" />
         <option value="$PROJECT_DIR$/hongshuwang/README.md" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/JS基础.md" />
         <option value="$PROJECT_DIR$/xinrongcaifu/rsa.js" />
         <option value="$PROJECT_DIR$/xinrongcaifu/decode.js" />
         <option value="$PROJECT_DIR$/xinrongcaifu/decode.py" />
@@ -127,6 +138,8 @@
         <option value="$PROJECT_DIR$/fangtianxia/handle_fangtianxia.py" />
         <option value="$PROJECT_DIR$/常见js逆向技巧.md" />
         <option value="$PROJECT_DIR$/xinrongcaifu/rsa_study/handle_rsa.py" />
+        <option value="$PROJECT_DIR$/JS基础.md" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -136,7 +149,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1008" />
     <option name="y" value="266" />
     <option name="width" value="1296" />
@@ -159,17 +172,6 @@
               <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
-              <item name="xinrongcaifu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
-              <item name="xinrongcaifu" type="462c0819:PsiDirectoryNode" />
-              <item name="rsa_study" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -180,7 +182,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/xinrongcaifu" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/js_tool" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
@@ -359,12 +361,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23110151" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13228941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22680412" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23482245" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -449,28 +451,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JS基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="737">
-            <caret line="32" column="11" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xinrongcaifu/decode.js" />
     <entry file="file://$PROJECT_DIR$/xinrongcaifu/rsa.js" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="320">
-            <caret line="10" column="11" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xinrongcaifu/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -485,13 +467,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xinrongcaifu/AA.base-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="776" column="4" selection-start-line="776" selection-start-column="4" selection-end-line="776" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -532,8 +507,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xinrongcaifu/rsa_study/handle_rsa.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+        <state relative-caret-position="1056">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinrongcaifu/AA.base-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="785" column="9" selection-start-line="785" selection-start-column="9" selection-end-line="785" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JS基础.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="735">
+            <caret line="63" column="6" selection-start-line="63" selection-start-column="6" selection-end-line="63" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="352">
+            <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

@@ -1,5 +1,6 @@
 # js-reverse
 #### 仅限学术交流，如有冒犯请联系作者删除
+js_tool  js调试工具
 ### JS逆向研究
 ### 1、[jrtt_news](https://github.com/freedom-wy/js-reverse/tree/master/jrtt_news) 今日头条账号下所有新闻抓取js破解
 ### 2、[kongzhongwang](https://github.com/freedom-wy/js-reverse/tree/master/kongzhongwang) 空中网登录JS破解
@@ -9,6 +10,7 @@
 ### 6、[nubia_bbs](https://github.com/freedom-wy/js-reverse/tree/master/nubia_bbs) 努比亚论坛cookie值JS破解
 ### 7、[dazhongdianping](https://github.com/freedom-wy/js-reverse/tree/master/dazhongdianping) 大众点评css字体加密破解
 ### 8、[hongshuwang](https://github.com/freedom-wy/js-reverse/tree/master/hongshuwang) 红薯网CryptoJS逻辑逆向破解
+### 9、[xinrongcaifu](https://github.com/freedom-wy/js-reverse/tree/master/xinrongcaifu)  信融财富密码rsa加密逻辑分析
 ***
 #### 我在慕课网上主讲课程[Python爬虫工程师必学——App数据抓取实战](https://coding.imooc.com/class/283.html),还请各位大神多多支持.
 

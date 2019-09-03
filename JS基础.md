@@ -32,5 +32,36 @@ a?alert("真"):alert("假");
 var obj = {};
 var obj2 = new Object;
 ```
+8、在匿名函数中传window参数  
+```javascript
+!function(n){
+    function i(){
+        var a = 5;
+        return a;
+    };
+    n.test_js = i;
+}(window);
+
+function test(){
+	return test_js();
+};
+test();
+```
+该段代码在js调试器中会报错,无window对象,此时需要定义window对象
+```javascript
+var window = {};
+!function(n){
+    function i(){
+        var a = 5;
+        return a;
+    };
+    n.test_js = i;
+}(window);
+
+function test(){
+	return window.test_js();
+};
+test();
+```
 
 ### bug:dazhuang_python@sina.com
