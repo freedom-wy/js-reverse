@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Qzone/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/Qzone/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Qzone/decode_qzone_login.js" beforeDir="false" afterPath="$PROJECT_DIR$/Qzone/decode_qzone_login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Qzone/handle_login_qzone.py" beforeDir="false" afterPath="$PROJECT_DIR$/Qzone/handle_login_qzone.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +24,7 @@
     <SUITE FILE_PATH="coverage/js_reverse$handle_meituan_business_page.coverage" NAME="handle_meituan_business_page Coverage Results" MODIFIED="1564743434736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan" />
     <SUITE FILE_PATH="coverage/js_reverse$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1566910806908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_guazi.coverage" NAME="handle_guazi Coverage Results" MODIFIED="1566997112157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guazi" />
-    <SUITE FILE_PATH="coverage/js_reverse$handle_login_qzone.coverage" NAME="handle_login_qzone Coverage Results" MODIFIED="1567516904149" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qzone" />
+    <SUITE FILE_PATH="coverage/js_reverse$handle_login_qzone.coverage" NAME="handle_login_qzone Coverage Results" MODIFIED="1567587237319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qzone" />
     <SUITE FILE_PATH="coverage/js_reverse$test.coverage" NAME="test Coverage Results" MODIFIED="1567514439567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qzone" />
     <SUITE FILE_PATH="coverage/js_reverse$test__2_.coverage" NAME="test (2) Coverage Results" MODIFIED="1566922171382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hongshuwang" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_meituan_business_detail.coverage" NAME="handle_meituan_business_detail Coverage Results" MODIFIED="1564742978895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan" />
@@ -32,29 +33,30 @@
     <session id="-146252718">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="3" />
-          <entry key="js" value="10" />
-          <entry key="md" value="19" />
+          <entry key="js" value="12" />
+          <entry key="md" value="20" />
           <entry key="py" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="3" />
-          <entry key="JavaScript" value="10" />
-          <entry key="Markdown" value="19" />
+          <entry key="JavaScript" value="12" />
+          <entry key="Markdown" value="20" />
           <entry key="Python" value="16" />
         </counts>
       </usages-collector>
@@ -62,18 +64,18 @@
         <counts>
           <entry key="dummy" value="2" />
           <entry key="html" value="53" />
-          <entry key="js" value="4090" />
-          <entry key="md" value="2891" />
-          <entry key="py" value="6592" />
+          <entry key="js" value="4131" />
+          <entry key="md" value="3001" />
+          <entry key="py" value="6853" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="53" />
-          <entry key="JavaScript" value="4091" />
-          <entry key="Markdown" value="2890" />
+          <entry key="JavaScript" value="4132" />
+          <entry key="Markdown" value="3000" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="6592" />
+          <entry key="Python" value="6853" />
         </counts>
       </usages-collector>
     </session>
@@ -95,10 +97,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Qzone/handle_login_qzone.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="-911">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
-                <marker date="1567517312483" expanded="true" signature="68:73" ph="..." />
+                <marker date="1567587367515" expanded="true" signature="68:73" ph="..." />
               </folding>
             </state>
           </provider>
@@ -107,8 +110,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Qzone/decode_qzone_login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="384">
-              <caret line="1270" column="75" selection-start-line="1270" selection-start-column="75" selection-end-line="1270" selection-end-column="75" />
+            <state relative-caret-position="285">
+              <caret line="1275" column="29" selection-start-line="1275" selection-start-column="29" selection-end-line="1275" selection-end-column="29" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -122,8 +125,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -152,12 +155,13 @@
         <option value="$PROJECT_DIR$/常见js逆向技巧.md" />
         <option value="$PROJECT_DIR$/xinrongcaifu/rsa_study/handle_rsa.py" />
         <option value="$PROJECT_DIR$/JS基础.md" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/js_tool/README.md" />
         <option value="$PROJECT_DIR$/Qzone/test.py" />
+        <option value="$PROJECT_DIR$/Qzone/README.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/Qzone/g_tk.js" />
         <option value="$PROJECT_DIR$/Qzone/decode_qzone_login.js" />
         <option value="$PROJECT_DIR$/Qzone/handle_login_qzone.py" />
-        <option value="$PROJECT_DIR$/Qzone/README.md" />
       </list>
     </option>
   </component>
@@ -167,7 +171,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1008" />
     <option name="y" value="266" />
     <option name="width" value="1296" />
@@ -384,12 +388,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13930885" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.06803456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5635739" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34707904" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -543,16 +547,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="64">
-            <caret line="2" selection-start-line="2" selection-end-line="2" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/JS基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -583,13 +577,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Qzone/test.py">
+    <entry file="file://$PROJECT_DIR$/Qzone/test.py" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="416">
+            <caret line="13" column="88" selection-start-line="13" selection-start-column="88" selection-end-line="13" selection-end-column="88" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Qzone/g_tk.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Qzone/decode_qzone_login.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="1270" column="75" selection-start-line="1270" selection-start-column="75" selection-end-line="1270" selection-end-column="75" />
+        <state relative-caret-position="285">
+          <caret line="1275" column="29" selection-start-line="1275" selection-start-column="29" selection-end-line="1275" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -598,10 +603,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Qzone/handle_login_qzone.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="-911">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
-            <marker date="1567517312483" expanded="true" signature="68:73" ph="..." />
+            <marker date="1567587367515" expanded="true" signature="68:73" ph="..." />
           </folding>
         </state>
       </provider>

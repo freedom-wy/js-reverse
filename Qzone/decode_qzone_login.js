@@ -1270,3 +1270,11 @@ $.Encryption = $pt.Encryption = function() {
 function test(password,salt,verifycode){
 	return $.Encryption.getEncryption(password, salt, verifycode, undefined);
 };
+
+function g_tk(p_skey){
+    var t = 5381;
+    for (var n = 0, r = p_skey.length; n < r; ++n) {
+        t += (t << 5) + p_skey.charCodeAt(n)
+    }
+    return t & 2147483647
+};

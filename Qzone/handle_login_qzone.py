@@ -10,17 +10,7 @@ class LoginQzone(object):
         self.password = password
         self.qzone_session = requests.session()
         self.header = {
-            # "Host":"xui.ptlogin2.qq.com",
-            # "Connection":"keep-alive",
-            # "Upgrade-Insecure-Requests":"1",
             "User-Agent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36",
-            # "Sec-Fetch-Mode":"nested-navigate",
-            # "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3",
-            # "Sec-Fetch-Site":"same-site",
-            # "Referer":"https://i.qq.com/",
-            # "Accept-Encoding":"gzip, deflate, br",
-            # "Accept-Language":"zh-CN,zh;q=0.9",
-            # "Cookie":"_qz_referrer=i.qq.com",
         }
         with open("decode_qzone_login.js",'r',encoding='utf-8') as f:
             js = f.read()
@@ -55,22 +45,25 @@ class LoginQzone(object):
             self.sign = eval(result_search.search(response.text).group(1))
             return True
         else:
-            print("登录失败")
+            print(response.text)
             return False
 
     def handle_message(self):
         """
-        发表说说,未完成
+        发表说说
         :return:
         """
         if self.handle_login():
             v1,v2,v3,v4,v5,v6 = self.sign
             self.qzone_session.get(url=v3,headers=self.header)
+            #查看登录后个人首页
             index_url = "https://user.qzone.qq.com/"+str(self.username)
             token_search = re.compile(r'try{return\s"(.*?)";')
+            #需要在个人首页中找到token值
             index_response = self.qzone_session.get(url=index_url,headers=self.header)
             token = token_search.search(index_response.text).group(1)
-            post_message_url = "https://user.qzone.qq.com/proxy/domain/taotao.qzone.qq.com/cgi-bin/emotion_cgi_publish_v6?qzonetoken="+token
+            g_tk_value = self.decode_qzone_js.call("g_tk",self.qzone_session.cookies.get_dict()['p_skey'])
+            post_message_url = "https://user.qzone.qq.com/proxy/domain/taotao.qzone.qq.com/cgi-bin/emotion_cgi_publish_v6?qzonetoken=%s&g_tk=%s"%(token,g_tk_value)
             data = {
                 "syn_tweet_verson": 1,
                 "paramstr": 1,
@@ -80,7 +73,7 @@ class LoginQzone(object):
                 "special_url": "",
                 "subrichtype": "",
                 "who": 1,
-                "con": "测试两下",
+                "con": "成功!---该条动态为:使用Python爬虫登录Qzone,并自动发送动态.代码详见:https://github.com/freedom-wy/js-reverse/tree/master/Qzone",
                 "feedversion": 1,
                 "ver": 1,
                 "ugc_right": 1,
