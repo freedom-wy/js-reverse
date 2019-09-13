@@ -2,22 +2,15 @@ import requests
 import execjs
 import re
 
-#我们请求城市的接口
-url = 'https://www.guazi.com/www/buy'
+url = 'https://www.guazi.com/bj/buy/o1i7/#bread'
 
 header = {
-    "Accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8",
-    "Accept-Encoding":"gzip, deflate, br",
-    "Accept-Language":"zh-CN,zh;q=0.9",
-    "Connection":"keep-alive",
-    "Host":"www.guazi.com",
-    "Referer":"https://www.guazi.com/www/buy",
-    "Upgrade-Insecure-Requests":"1",
     "User-Agent":"Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3610.2 Safari/537.36",
 }
 
-#首次请求返回201状态码，和JS加密文件
+#首次请求返回203状态码，和JS加密文件
 response = requests.get(url=url,headers=header)
+print(response.text)
 #设置返回的编码
 response.encoding = 'utf-8'
 if '正在打开中,请稍后' in response.text:
