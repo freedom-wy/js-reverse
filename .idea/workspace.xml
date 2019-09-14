@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/uxin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uxin/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uxin/handle_uxin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/uxin/uxin.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guazi/handle_guazi.py" beforeDir="false" afterPath="$PROJECT_DIR$/guazi/handle_guazi.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,10 +22,12 @@
     <SUITE FILE_PATH="coverage/js_reverse$handle_fangtianxia.coverage" NAME="handle_fangtianxia Coverage Results" MODIFIED="1567432915013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fangtianxia" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_meituan_token.coverage" NAME="handle_meituan_token Coverage Results" MODIFIED="1564737952197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_uxin_car.coverage" NAME="handle_uxin_car Coverage Results" MODIFIED="1568213199259" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uxin" />
+    <SUITE FILE_PATH="coverage/js_reverse$overwrite_uxin_js.coverage" NAME="overwrite_uxin_js Coverage Results" MODIFIED="1568439099532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uxin" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_manhuagui_md5.coverage" NAME="handle_manhuagui_md5 Coverage Results" MODIFIED="1564632015565" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/manhuagui" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_hongshuwang.coverage" NAME="handle_hongshuwang Coverage Results" MODIFIED="1566925331679" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hongshuwang" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_meituan_business_page.coverage" NAME="handle_meituan_business_page Coverage Results" MODIFIED="1564743434736" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan" />
     <SUITE FILE_PATH="coverage/js_reverse$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1566910806908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note" />
+    <SUITE FILE_PATH="coverage/js_reverse$handle_uxin.coverage" NAME="handle_uxin Coverage Results" MODIFIED="1568452150908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/uxin" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_guazi.coverage" NAME="handle_guazi Coverage Results" MODIFIED="1566997112157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guazi" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_login_qzone.coverage" NAME="handle_login_qzone Coverage Results" MODIFIED="1567587237319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qzone" />
     <SUITE FILE_PATH="coverage/js_reverse$test.coverage" NAME="test Coverage Results" MODIFIED="1567514439567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Qzone" />
@@ -33,72 +38,87 @@
     <session id="-146252718">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.0" value="4" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="3" />
           <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="3" />
-          <entry key="js" value="14" />
-          <entry key="md" value="20" />
-          <entry key="py" value="19" />
+          <entry key="html" value="6" />
+          <entry key="js" value="18" />
+          <entry key="md" value="23" />
+          <entry key="py" value="30" />
+          <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="3" />
-          <entry key="JavaScript" value="14" />
-          <entry key="Markdown" value="20" />
-          <entry key="Python" value="19" />
+          <entry key="HTML" value="6" />
+          <entry key="JavaScript" value="18" />
+          <entry key="Markdown" value="23" />
+          <entry key="Python" value="30" />
+          <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="6" />
           <entry key="html" value="53" />
-          <entry key="js" value="4309" />
-          <entry key="md" value="3001" />
-          <entry key="py" value="7578" />
+          <entry key="js" value="6581" />
+          <entry key="md" value="3593" />
+          <entry key="py" value="9028" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="53" />
-          <entry key="JavaScript" value="4310" />
-          <entry key="Markdown" value="3000" />
+          <entry key="JavaScript" value="6582" />
+          <entry key="Markdown" value="3592" />
           <entry key="PLAIN_TEXT" value="6" />
-          <entry key="Python" value="7578" />
+          <entry key="Python" value="9028" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guazi/guazi.js">
+        <entry file="file://$PROJECT_DIR$/uxin/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="128">
+                <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uxin/uxin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6752">
-              <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+            <state relative-caret-position="128">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guazi/handle_guazi.py">
+        <entry file="file://$PROJECT_DIR$/uxin/handle_uxin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+            <state relative-caret-position="-239">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
               <folding>
-                <element signature="e#0#15#0" expanded="true" />
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1568452214873" expanded="true" signature="67:587" ph="..." />
               </folding>
             </state>
           </provider>
@@ -110,8 +130,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Python Script" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -152,6 +172,11 @@
         <option value="$PROJECT_DIR$/uxin/handle_youxin_car.py" />
         <option value="$PROJECT_DIR$/uxin/handle_uxin_car.py" />
         <option value="$PROJECT_DIR$/guazi/handle_guazi.py" />
+        <option value="$PROJECT_DIR$/uxin/overwrite_uxin_js.py" />
+        <option value="$PROJECT_DIR$/uxin/uxin2.js" />
+        <option value="$PROJECT_DIR$/uxin/README.md" />
+        <option value="$PROJECT_DIR$/uxin/uxin.js" />
+        <option value="$PROJECT_DIR$/uxin/handle_uxin.py" />
       </list>
     </option>
   </component>
@@ -161,9 +186,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="105" />
+    <option name="y" value="629" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -176,6 +201,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,32 +209,47 @@
               <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
               <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
+              <item name="nubia_bbs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
+              <item name="nubia_bbs" type="462c0819:PsiDirectoryNode" />
+              <item name="nubia_bbs_from_overwrite_js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="js-reverse" type="b2602c69:ProjectViewProjectNode" />
+              <item name="js-reverse" type="462c0819:PsiDirectoryNode" />
+              <item name="uxin" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/uxin" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study\study_js\js-reverse\hongshuwang\nodejs_jsdom_note" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\study_js\js-reverse\uxin" />
       <recent name="C:\study\study_js\js-reverse\Qzone" />
       <recent name="C:\study\study_js\js-reverse\js_tool" />
       <recent name="C:\study\study_js\js-reverse\xinrongcaifu" />
       <recent name="C:\study\study_js\js-reverse" />
-      <recent name="C:\study\study_js\js-reverse\hongshuwang" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\study\study_js\js-reverse\hongshuwang\nodejs_jsdom_note" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -223,29 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.handle_uxin_car">
-    <configuration name="handle_fangtianxia" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="js-reverse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fangtianxia" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fangtianxia/handle_fangtianxia.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.handle_uxin">
     <configuration name="handle_login_qzone" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js-reverse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -268,7 +287,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handle_rsa" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="handle_uxin" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js-reverse" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -276,12 +295,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/xinrongcaifu/rsa_study" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uxin" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/xinrongcaifu/rsa_study/handle_rsa.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uxin/handle_uxin.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -304,6 +323,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uxin/handle_uxin_car.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="overwrite_uxin_js" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="js-reverse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uxin" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uxin/overwrite_uxin_js.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -335,19 +376,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.handle_fangtianxia" />
-      <item itemvalue="Python.handle_rsa" />
       <item itemvalue="Python.handle_login_qzone" />
       <item itemvalue="Python.test" />
       <item itemvalue="Python.handle_uxin_car" />
+      <item itemvalue="Python.handle_uxin" />
+      <item itemvalue="Python.overwrite_uxin_js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.handle_uxin" />
+        <item itemvalue="Python.overwrite_uxin_js" />
         <item itemvalue="Python.handle_uxin_car" />
         <item itemvalue="Python.handle_login_qzone" />
         <item itemvalue="Python.test" />
-        <item itemvalue="Python.handle_rsa" />
-        <item itemvalue="Python.handle_fangtianxia" />
       </list>
     </recent_temporary>
   </component>
@@ -371,13 +412,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14092873" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1150108" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.50057274" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.49942726" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -457,16 +499,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/xinrongcaifu/decode.js" />
     <entry file="file://$PROJECT_DIR$/xinrongcaifu/rsa.js" />
-    <entry file="file://$PROJECT_DIR$/xinrongcaifu/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="128">
-            <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/xinrongcaifu/decode.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
@@ -506,13 +538,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1056">
           <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/xinrongcaifu/AA.base-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="785" column="9" selection-start-line="785" selection-start-column="9" selection-end-line="785" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -589,26 +614,138 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/douyin/decode_douyin_movie.js" />
     <entry file="file://$PROJECT_DIR$/douyin/handle_douyin_web_movie.py" />
-    <entry file="file://$PROJECT_DIR$/uxin/handle_uxin_car.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guazi/guazi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6752">
-          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/uxin/handle_uxin_car.py" />
     <entry file="file://$PROJECT_DIR$/guazi/handle_guazi.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guazi/guazi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="742">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinrongcaifu/AA.base-min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2832">
+          <caret line="785" column="9" selection-start-line="785" selection-start-column="9" selection-end-line="785" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/xinrongcaifu/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="128">
+            <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manhuagui/md5_test.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nubia_bbs/nubia_bbs_from_chrome/nubia_bbs_js.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8532" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nubia_bbs/nubia_bbs_from_chrome/after_decode_cookie.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nubia_bbs/nubia_bbs_from_chrome/decode_cookie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nubia_bbs/nubia_bbs_from_chrome/handle_nubia_bbs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1012">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nubia_bbs/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11570">
+          <caret line="17141" column="17" selection-start-line="17141" selection-start-column="17" selection-end-line="17141" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/base64.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="505" column="4" selection-start-line="505" selection-start-column="4" selection-end-line="505" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uxin/uxin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uxin/overwrite_uxin_js.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="52" column="67" lean-forward="true" selection-start-line="52" selection-start-column="67" selection-end-line="52" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uxin/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="128">
+            <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nubia_bbs/nubia_bbs_from_overwrite_js/overwrite_js.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="55" column="39" lean-forward="true" selection-start-line="55" selection-start-column="39" selection-end-line="55" selection-end-column="39" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uxin/uxin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uxin/handle_uxin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-239">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1568452214873" expanded="true" signature="67:587" ph="..." />
           </folding>
         </state>
       </provider>
