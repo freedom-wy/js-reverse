@@ -12,6 +12,7 @@ js_tool  js调试工具
 ### 8、[hongshuwang](https://github.com/freedom-wy/js-reverse/tree/master/hongshuwang) 红薯网CryptoJS逻辑逆向破解
 ### 9、[xinrongcaifu](https://github.com/freedom-wy/js-reverse/tree/master/xinrongcaifu)  信融财富密码rsa加密逻辑分析
 ### 10、[Qzone](https://github.com/freedom-wy/js-reverse/tree/master/Qzone)  Qzone登录js逆向研究
+### 11、[Uxin](https://github.com/freedom-wy/js-reverse/tree/master/uxin)  优信二手车JS逆向
 ***
 #### 我在慕课网上主讲课程[Python爬虫工程师必学——App数据抓取实战](https://coding.imooc.com/class/283.html),还请各位大神多多支持.
 
