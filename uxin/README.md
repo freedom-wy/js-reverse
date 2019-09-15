@@ -53,4 +53,5 @@ String[_0x55f3('0x5', '\x6e\x5d\x66\x52')][_0x55f3('0x6', '\x50\x67\x35\x34')] =
 ##### 6、uxin逆向JS方法和努比亚逆向方法相同,可以改为python代码
 
 ***
+#### 我在慕课网上主讲课程[Python爬虫工程师必学——App数据抓取实战](https://coding.imooc.com/class/283.html),还请各位大神多多支持.
 #### bug:dazhuang_python@sina.com

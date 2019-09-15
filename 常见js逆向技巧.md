@@ -18,4 +18,5 @@
 ##### (5)、通过对应关系解析加密字体
 #### 5、通过RSA加密关键字段，如密码,可以通过关键字找到相应的方法，扣取需要的代码
 
+#### 我在慕课网上主讲课程[Python爬虫工程师必学——App数据抓取实战](https://coding.imooc.com/class/283.html),还请各位大神多多支持.
 ### bug:dazhuang_python@sina.com
