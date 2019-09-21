@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +37,7 @@
         <counts>
           <entry key="project.closed" value="19" />
           <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -44,7 +45,7 @@
           <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.opened" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -76,7 +77,7 @@
           <entry key="font_list" value="16" />
           <entry key="html" value="53" />
           <entry key="js" value="6581" />
-          <entry key="md" value="4111" />
+          <entry key="md" value="4198" />
           <entry key="py" value="10439" />
         </counts>
       </usages-collector>
@@ -84,7 +85,7 @@
         <counts>
           <entry key="HTML" value="53" />
           <entry key="JavaScript" value="6582" />
-          <entry key="Markdown" value="4110" />
+          <entry key="Markdown" value="4197" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="Python" value="10439" />
         </counts>
@@ -92,13 +93,13 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="522">
-                <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+              <first_editor relative-caret-position="672">
+                <caret line="21" selection-start-line="21" selection-end-line="21" />
               </first_editor>
               <second_editor />
             </state>
@@ -218,16 +219,16 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study\study_js\js-reverse\autohome" />
+      <recent name="C:\study\study_js\js-reverse\hongshuwang\nodejs_jsdom_note" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\study\study_js\js-reverse" />
       <recent name="C:\study\study_js\js-reverse\autohome\koubei" />
       <recent name="C:\study\study_js\js-reverse\autohome" />
       <recent name="C:\study\study_js\js-reverse\uxin" />
       <recent name="C:\study\study_js\js-reverse\Qzone" />
-      <recent name="C:\study\study_js\js-reverse\js_tool" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\study\study_js\js-reverse\autohome" />
-      <recent name="C:\study\study_js\js-reverse\hongshuwang\nodejs_jsdom_note" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -392,7 +393,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18952484" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19276458" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -751,8 +752,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="522">
-            <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+          <first_editor relative-caret-position="672">
+            <caret line="21" selection-start-line="21" selection-end-line="21" />
           </first_editor>
           <second_editor />
         </state>
