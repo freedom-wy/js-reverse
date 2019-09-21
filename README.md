@@ -15,7 +15,8 @@ js_tool  js调试工具
 ### 11、[Uxin](https://github.com/freedom-wy/js-reverse/tree/master/uxin)  优信二手车JS逆向
 ### 12、[autohome](https://github.com/freedom-wy/js-reverse/tree/master/autohome)  汽车之家JS逆向
 ***
-#### 我在慕课网上主讲课程[Python爬虫工程师必学——App数据抓取实战](https://coding.imooc.com/class/283.html),还请各位大神多多支持.
-
-
+#### 我在慕课网上主讲课程[Python爬虫工程师必学——App数据抓取实战](https://coding.imooc.com/class/283.html),还请各位大神多多支持.  
+***
+![爬虫工程师之家公众号](gongzhonghao.jpg)  
+***
 ### bug:dazhuang_python@sina.com
