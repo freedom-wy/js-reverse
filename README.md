@@ -13,6 +13,7 @@ js_tool  js调试工具
 ### 9、[Qzone](https://github.com/freedom-wy/js-reverse/tree/master/Qzone)  Qzone登录js逆向研究
 ### 10、[Uxin](https://github.com/freedom-wy/js-reverse/tree/master/uxin)  优信二手车JS逆向
 ### 11、[autohome](https://github.com/freedom-wy/js-reverse/tree/master/autohome)  汽车之家JS逆向
+### 12、[maoyan](https://github.com/freedom-wy/js-reverse/tree/master/maoyan) 猫眼动态css混淆破解 
 ***
 #### 我在慕课网上主讲课程[Python爬虫工程师必学——App数据抓取实战](https://coding.imooc.com/class/283.html),还请各位大神多多支持.  
 ***
