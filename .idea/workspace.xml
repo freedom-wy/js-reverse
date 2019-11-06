@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70db28ac-b752-43b8-9f75-ab0a9da3a1c0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jikeshijian/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jikeshijian/handle_jksj.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +15,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/js_reverse$decode.coverage" NAME="decode Coverage Results" MODIFIED="1567429900237" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinrongcaifu" />
     <SUITE FILE_PATH="coverage/js_reverse$login_kongzhongwang.coverage" NAME="login_kongzhongwang Coverage Results" MODIFIED="1564571786357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/kongzhongwang" />
+    <SUITE FILE_PATH="coverage/js_reverse$handle_jksj.coverage" NAME="handle_jksj Coverage Results" MODIFIED="1572452475457" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/jikeshijian" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_rsa.coverage" NAME="handle_rsa Coverage Results" MODIFIED="1567492695275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/xinrongcaifu/rsa_study" />
     <SUITE FILE_PATH="coverage/js_reverse$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1564667421555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/js_reverse$handle_fangtianxia.coverage" NAME="handle_fangtianxia Coverage Results" MODIFIED="1567432915013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/fangtianxia" />
@@ -36,7 +39,7 @@
     <session id="-146252718">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="20" />
+          <entry key="project.closed" value="23" />
           <entry key="project.open.time.0" value="6" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="2" />
@@ -44,9 +47,9 @@
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="2" />
+          <entry key="project.open.time.8" value="4" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.opened" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,7 +59,7 @@
           <entry key="html" value="7" />
           <entry key="js" value="19" />
           <entry key="md" value="51" />
-          <entry key="py" value="43" />
+          <entry key="py" value="44" />
           <entry key="ts" value="1" />
           <entry key="txt" value="1" />
           <entry key="xml" value="2" />
@@ -68,7 +71,7 @@
           <entry key="JavaScript" value="19" />
           <entry key="Markdown" value="51" />
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="43" />
+          <entry key="Python" value="44" />
           <entry key="TypeScript" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -80,7 +83,7 @@
           <entry key="html" value="55" />
           <entry key="js" value="6581" />
           <entry key="md" value="4612" />
-          <entry key="py" value="11284" />
+          <entry key="py" value="13041" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -89,14 +92,14 @@
           <entry key="JavaScript" value="6582" />
           <entry key="Markdown" value="4611" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="Python" value="11284" />
+          <entry key="Python" value="13041" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -104,6 +107,20 @@
                 <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/jikeshijian/handle_jksj.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="544">
+              <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+                <marker date="1572452782343" expanded="true" signature="106:111" ph="..." />
+                <marker date="1572452782343" expanded="true" signature="1938:1946" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -125,7 +142,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/hongshuwang/nodejs_jsdom.js" />
         <option value="$PROJECT_DIR$/hongshuwang/jsdom.md" />
         <option value="$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/nodejs_jsdom.js" />
         <option value="$PROJECT_DIR$/hongshuwang/nodejs_jsdom_note/test.py" />
@@ -176,6 +192,7 @@
         <option value="$PROJECT_DIR$/maoyan/handle_maoyan.py" />
         <option value="$PROJECT_DIR$/maoyan/README.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/jikeshijian/handle_jksj.py" />
       </list>
     </option>
   </component>
@@ -218,22 +235,22 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/maoyan" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../read_requests_source_code" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\study\study_js\js-reverse\autohome" />
+      <recent name="C:\study\study_js\js-reverse\hongshuwang\nodejs_jsdom_note" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\study\study_js\js-reverse\maoyan" />
       <recent name="C:\study\study_js\js-reverse" />
       <recent name="C:\study\study_js\js-reverse\autohome\koubei" />
       <recent name="C:\study\study_js\js-reverse\autohome" />
       <recent name="C:\study\study_js\js-reverse\uxin" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\study\study_js\js-reverse\autohome" />
-      <recent name="C:\study\study_js\js-reverse\hongshuwang\nodejs_jsdom_note" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -248,7 +265,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.handle_maoyan">
+  <component name="RunManager" selected="Python.handle_jksj">
     <configuration name="handle_autohome_app_koubei" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js-reverse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -263,6 +280,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/autohome/koubei/handle_autohome_app_koubei.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="handle_jksj" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="js-reverse" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/jikeshijian" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/jikeshijian/handle_jksj.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,28 +354,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="handle_uxin_car" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="js-reverse" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/uxin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/uxin/handle_uxin_car.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="overwrite_uxin_js" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="js-reverse" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -360,19 +377,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.handle_uxin_car" />
       <item itemvalue="Python.handle_uxin" />
       <item itemvalue="Python.overwrite_uxin_js" />
       <item itemvalue="Python.handle_autohome_app_koubei" />
       <item itemvalue="Python.handle_maoyan" />
+      <item itemvalue="Python.handle_jksj" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.handle_jksj" />
         <item itemvalue="Python.handle_maoyan" />
         <item itemvalue="Python.handle_autohome_app_koubei" />
         <item itemvalue="Python.handle_uxin" />
         <item itemvalue="Python.overwrite_uxin_js" />
-        <item itemvalue="Python.handle_uxin_car" />
       </list>
     </recent_temporary>
   </component>
@@ -396,14 +413,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2300216" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27429804" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3298969" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.21534938" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35166094" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -452,7 +468,6 @@
     <SUITE FILE_PATH="coverage/js_reverse$handle_meituan_business_page_token.coverage" NAME="handle_meituan_business_page_token Coverage Results" MODIFIED="1565704432229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/meituan/meishi_business" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/jrtt_news/README.md" />
     <entry file="file://$PROJECT_DIR$/JS基础.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -725,9 +740,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/maoyan/test.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/maoyan/test.html" />
     <entry file="file://$PROJECT_DIR$/dazhongdianping/handle_dianping_css_font.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-271">
@@ -742,9 +755,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="515">
           <caret line="61" column="4" selection-start-line="61" selection-start-column="4" selection-end-line="61" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -762,9 +772,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="73" column="28" selection-start-line="73" selection-start-column="28" selection-end-line="73" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,6 +782,18 @@
             <caret line="15" column="87" selection-start-line="15" selection-start-column="87" selection-end-line="15" selection-end-column="87" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jikeshijian/handle_jksj.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="17" column="24" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <marker date="1572452782343" expanded="true" signature="106:111" ph="..." />
+            <marker date="1572452782343" expanded="true" signature="1938:1946" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
